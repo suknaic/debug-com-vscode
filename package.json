@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Felipe Suknaic <fsuknaic@hotmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev:server": "nodemon src/server.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
