@@ -1,7 +1,7 @@
 const users = ["felipe", "kelyane", "isadora", "jhon"];
 
 export function getUser() {
-  return users;
+  return [];
 }
 
 export function addUser(user) {

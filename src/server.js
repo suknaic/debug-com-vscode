@@ -5,7 +5,10 @@ const app = express();
 
 app.get("/", (req, res) => {
   const users = getUser();
-  return res.json(users);
+
+  console.log("chegou aqui usuario");
+  console.log(users);
+  return res.json({ users });
 });
 
 app.listen(8000);
