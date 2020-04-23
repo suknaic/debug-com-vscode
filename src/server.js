@@ -5,9 +5,6 @@ const app = express();
 
 app.get("/", (req, res) => {
   const users = getUser();
-
-  console.log("chegou aqui usuario");
-  console.log(users);
   return res.json({ users });
 });
 
